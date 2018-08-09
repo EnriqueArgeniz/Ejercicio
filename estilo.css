@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+	body{
+		background-color: #ffffff;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-attachment: fixed;
+		font-family: Roboto;
+	}
+
+.contenedor-form {
+		position: relative;
+		background: url(f1.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-attachment: fixed;
+		width: 100%;
+		max-width: 600px;
+		margin: 70px auto;
+		color: #ffffff;
+		border-radius: 10px;
+
+		padding-top: 30px;
+		padding-right: 35px;
+		padding-bottom: 50px;
+		padding-left: 35px;
+	}
+
+	.contenedor-form input[type="text"]
+ {
+
+		width: 75%;
+		padding: 5px 10px;
+	border-radius: 10px;
+	}
